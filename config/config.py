@@ -1,4 +1,4 @@
-import re
+toimport re
 import sys
 from os import getenv
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION","")
+STRING1 = getenv("STRING_SESSION","AQAFRl-63yPPZdqLe5Lob3OC9qi7auUQDLPUmAdJqFdf2NXZV9IBEv1soOfhh1OhlVyG5NEDek_vTakaGrNgG8KxBBb8SmiOfs1UKFOwMR4T-uo00Ur-ZFxvSK0rIuFZL1qHv6OH3jcMx6WbBjFLz6XgFvTtTLm0YCpFnY_68ivJqVVpvPq4Qyv8XiQhSOddZQ-ah9bklqOHaNV-OtniYOb3DBKtdDHcG2kOuu772pThJTWm-WBJPQxIPYmcI4NOdIFrHf15te9xZYGM9xLc-GTjVP2pn9-IWQ-COktcACO0OiCsKIxrao1nM54OEtvc-8hian3XS93Fi-kV_Cb0MVj1AAAAAVi46oEA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
